@@ -15,7 +15,7 @@ class DisableUpgradeModule extends Module
 		$this->bootstrap = true;
 		parent::__construct();
 		$this->displayName = $this->l('Disable Upgrade Module');
-		$this->description = $this->l('Select from the list of modules that should not be updated.');
+		$this->description = $this->l('Select from the list of modules that should not be updated');
 		
 		$this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
 	}
